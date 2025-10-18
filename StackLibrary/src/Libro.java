@@ -1,12 +1,12 @@
 public class Libro {
-    String Titulo, Autor, Editorial, ISB;
+    String Titulo, Autor, Editorial, ISBN;
     int paginas;
 
-    public Libro(String Titulo, String Autor, String Editorial, String ISB, int paginas) {
+    public Libro(String Titulo, String Autor, String Editorial, String ISBN, int paginas) {
         this.Titulo = Titulo;
         this.Autor = Autor;
         this.Editorial = Editorial;
-        this.ISB = ISB;
+        this.ISBN = ISBN;
         this.paginas = paginas;
     }
 
@@ -19,7 +19,7 @@ public class Libro {
         System.out.println("NOMBRE DEL LIBRO: " + Titulo);
         System.out.println("AUTOR DEL LIBRO : " + Autor);
         System.out.println("EDITORIAL DEL LIBRO : " + Editorial);
-        System.out.println("ISB DEL LIBRO : " + ISB);
+        System.out.println("ISBN DEL LIBRO : " + ISBN);
         System.out.println("PAGINAS DEL LIBRO : " + paginas);
         System.out.println("=================================");
     }
